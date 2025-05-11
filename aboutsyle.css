@@ -1,0 +1,147 @@
+/* Reset some default styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #2a2a2a;
+    padding: 1rem 0;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 1.8rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar .nav-links li {
+    margin-left: 2rem;
+}
+
+.navbar .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.navbar .nav-links a.active {
+    border-bottom: 2px solid #00bcd4;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #00bcd4;
+    color: #fff;
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    justify-content: center;
+    padding: 4rem 2rem;
+}
+
+.about .container {
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.about-image {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.about-text h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about-text h3 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+/* Skills Section */
+.skills {
+    background-color: #fff;
+    padding: 4rem 2rem;
+}
+
+.skills .container {
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.skills-list {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.skill-item {
+    background-color: #f2f2f2;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 200px;
+}
+
+.skill-item h4 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+
+.skill-item p {
+    font-size: 1rem;
+}
+
+/* Footer */
+footer {
+    background-color: #2a2a2a;
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+}
